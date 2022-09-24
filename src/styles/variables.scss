@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+//Fonts
+$Poppins: "Poppins", sans-serif;
+
+// colors
+$black: #1d1111;
+$light-grey: #e8e7e7;
+$grey: #d2d0cf;
+$dark-grey: #a39f9f;
+$text-black: #493e3e;
+//-----------------------------------------
+//! Hackthon Colors:
+$background: #00032c;
+$main: #1d2144;
+$white: #ffffff;
+
+//-----------------------------------------
+
+$primary-red: #ef4747;
+$dark-red: #bf3a3a;
+$light-red: #f26c6c;
+$light-bg: #feeeed;
+
+$secondary-blue: #78c9d1;
+$dark-blue: #60a1a7;
+$light-blue: #93d4da;
+$light-bg: #feeeed;
+
+$status-red: #f26c6c;
+$status-yellow: #ffd25a;
+$status-green: #a7d385;
+
+// spacing
+$spacing-xs: 0.25em;
+$spacing-sm: 0.5em;
+$spacing-md: 1em;
+$spacing-lg: 2em;
+$spacing-xl: 3em;
+
+// font
+$font-xs: 0.875rem;
+$font-sm: 1rem;
+$font-md: 1.25rem;
+$font-lg: 1.5rem;
+$font-xl: 2rem;
+
+// shadow
+$shadow: 0 4px 7px 0 #0002;
+
+// border
+$border: 0.3px solid $light-grey;
+$border-radius: 8px;
+
+// header height
+$headerHeight: 5rem;
