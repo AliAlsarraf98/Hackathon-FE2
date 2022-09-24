@@ -1,10 +1,12 @@
-import ledger from "../src/assets/ledger.png";
-import "./App.css";
 import Home from "../src/Pages/Home";
+import "./styles/index.scss";
+
 function App() {
   return (
-    <div className="App">
-      <Home></Home>
+    <div className="app">
+      <div className="app-container">
+        <Home />
+      </div>
     </div>
   );
 }
