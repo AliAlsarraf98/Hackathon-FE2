@@ -1,0 +1,34 @@
+@import "../../styles/variables.scss";
+
+.container{
+    background-color: $light-bg;
+    display: flex;
+    flex-direction: column;
+
+    .feature-box{
+        padding:$spacing-md;
+            .title{
+            text-transform: capitalize;
+            margin:$spacing-sm;
+            font-size: $font-md;
+            align-items: left;
+        }
+        .year-wrapper{
+            display: grid;
+            padding:$spacing-md;
+            grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+
+            @media (max-width: 768px) {
+                width: 100%;
+                padding-left: 5em;              }
+        
+        }
+    }
+
+    .analytics{
+        display: grid;
+        padding:$spacing-md;
+        grid-template-rows: repeat(auto-fill, minmax(2rem, 1fr)); 
+    }
+
+}
