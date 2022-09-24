@@ -13,6 +13,12 @@
             font-size: $font-md;
             align-items: left;
         }
+        .value{
+            text-transform: capitalize;
+            margin:$spacing-sm;
+            font-size: $font-sm;
+            align-items: left;
+        }
         .year-wrapper{
             display: grid;
             padding:$spacing-md;

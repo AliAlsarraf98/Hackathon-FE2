@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import AddBudget from "../../Components/AddBudget";
+import AddCompany from "../../Components/AddCompany";
 import CompanySelect from "../../Components/CompanySelect";
 import RecordCard from "../../Components/RecordCard";
 import classes from "./style.module.scss";
+import AddCompanyModal from "../../Components/AddCompany/Modal";
+import { CREATE_COMPANY } from "../../graphql/mutations";
 
 const Home = () => {
   const [company, setCompany] = useState("");
@@ -19,10 +21,10 @@ const Home = () => {
           setCompany={setCompany}
           onSelectCompany={onSelectCompany}
         />
-        <div className={classes["budget-box"]}>
-          <div className={classes.title}>budget</div>
-          <AddBudget />
-        </div>
+        <AddCompanyModal />
+        <div className={classes["budget-box"]}></div>
+        <div className={classes.title}>budget</div>
+        <div className={classes.value}>KWD 10,000</div>
         <div className={classes.title}>Yearly Net Profit</div>
         <div className={classes["year-wrapper"]}>
           <RecordCard />
