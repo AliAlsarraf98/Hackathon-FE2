@@ -12,8 +12,8 @@ import {
 import { setContext } from "@apollo/client/link/context";
 
 const httpLink = createHttpLink({
-  uri: "https://evening-cliffs-78604.herokuapp.com/graphql/",
-  // uri: "http://127.0.0.1:8000/graphql/",
+  // uri: "https://evening-cliffs-78604.herokuapp.com/graphql/",
+  uri: "http://127.0.0.1:8000/graphql/",
 });
 
 const authLink = setContext((_, { headers }) => {
