@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import ledger from "../src/assets/ledger.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={ledger} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
