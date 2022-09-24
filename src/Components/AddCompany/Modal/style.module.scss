@@ -1,0 +1,35 @@
+@import "../../../styles/variables.scss";
+
+.company-button{
+    border-radius: $border-radius;
+    width: max-content;
+    padding: 0.5em;
+    font-size: $font-sm;
+    background-color: $light-red;
+    color: $white;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: $shadow;
+    &:hover {
+        background-color: $white;
+        color:$light-red;
+    }
+
+}
+
+.submit-button{
+    border-radius: $border-radius;
+    width: max-content;
+    padding: 0.5em;
+    font-size: $font-sm;
+    background-color: $light-red;
+    color: $white;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: $shadow;
+    &:hover {
+        background-color: $white;
+        color:$light-red;
+    }
+
+}
